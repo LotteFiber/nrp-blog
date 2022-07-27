@@ -80,9 +80,9 @@ const PostDetail = ({ post }) => {
                 className="align-middle rounded-full"
               />
             </div>
-            <p className="inline align-middle text-gray-700 ml-2 text-lg">
+            {/* <p className="inline align-middle text-gray-700 ml-2 text-lg">
               {post.author.name}
-            </p>
+            </p> */}
             <div className="font-medium text-gray-700">
               <span>{moment(post.createdAt).format("MMM DD, YYYY")}</span>
             </div>
